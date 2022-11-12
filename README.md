@@ -9,6 +9,11 @@ Compares the translator api of gcp and azure
 ## Installing
 * Use requirements.txt 
 
+##KEYS
+For GCP you need to download the JSON file from the service account you are using.
+In the case of AZURE you only need to copy the key obtained in the "keys and connection point" section.
+
 ## Authors
 Juan Daniel Aranda Morales
+  
   
