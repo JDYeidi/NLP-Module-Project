@@ -16,6 +16,6 @@ In the case of AZURE you only need to copy the key obtained in the "keys and con
 ## Authors
 Juan Daniel Aranda Morales
   
-## Graphics of task 2
+## Graphs of task 2
 ![graficas](https://user-images.githubusercontent.com/96556497/201457658-1ef9e4ca-954f-47fe-b70c-ce0e4d329f7d.PNG)
 
