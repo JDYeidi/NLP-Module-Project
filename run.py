@@ -9,6 +9,19 @@ Original file is located at
 Task 1: Out of the Box Sentiment Analysis
 """
 
+# Mikaela notes: 
+
+# Overall, good start. Now comes the part of making it a clean, professional repo! 
+
+# One note: spelling issues. requirements.txt is misspelled, as are several other things in the code. it's actually really important to double-check your spelling, since people will later search your code for certain things and the search won't work if things are misspelled.
+
+
+# unfortunately, just copying from a colab isn't a very clean way to create a repo.
+# Remove the lines about "!pip install", since those should be covered by your install script, and 
+# split the tasks into separate files that you then import here. 
+
+
+
 # HIDE OUTPUT
 !pip install transformers
 !pip install transformers[sentencepiece]
@@ -27,7 +40,8 @@ classifier = pipeline("sentiment-analysis", model = model, tokenizer = tokenizer
 with open('tiny_movie_reviews_dataset.txt', 'r') as f:
     reviews = f.readlines()
 c = 0
-for i in range(len(reviews)):
+for i in range(len(reviews)): # should be: for i, review in enumerate(reviews): 
+    # And then you can use i as your indexer (currently called "c") and review is the actual object, now called "inputs"
     inputs = reviews[i]
     output = classifier(inputs, max_length=512, truncation=True)
     if output[0]['label'] == 'LABEL_0':
@@ -74,7 +88,7 @@ class ModelTrainer():
           label_cols=["labels"],
           shuffle=True,
           collate_fn=self.data_collator,
-          batch_size=8,
+          batch_size=8, # Constants should all be pulled to top like BATCH_SIZE=8 and then here it is batch_size=BATCH_SIZE. See https://realpython.com/python-constants/
       )
 
       self.tf_validation_dataset = self.small_eval_dataset.to_tf_dataset(
@@ -125,7 +139,7 @@ class ModelTrainer():
       plt.legend(['train', 'val'], loc='upper left')
       plt.show()
 
-if __name__ == '__main__':
+if __name__ == '__main__': # Redefining MAIN three times doesn't work! please structure the code as mentioned above, splitting into classes and/or files, importing those and running. any python file should have at most one "main" function
 
 	samples_train = 3000
 	samples_test = 300
@@ -208,7 +222,7 @@ class translate_blue():
       blue_gcp = sentence_bleu(lang2[i].split(), output_gcp.split())
       points_gcp.append(blue_azure)
 
-    print("Blue Score GCP: " + str(statistics.mean(points_gcp)))
+    print("Blue Score GCP: " + str(statistics.mean(points_gcp))) # it's actually BLEU not BLUE in this case, it's an acronym
     print("Blue Score azure: " + str(statistics.mean(points_azure)))
 
 if __name__ == '__main__':
