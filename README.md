@@ -17,8 +17,8 @@ Compares the translator api of gcp and azure
 * All files must be in the same folder.
 
 ## KEYS
-For GCP you need to download the JSON file from the service account you are using.
-In the case of AZURE you only need to copy the key obtained in the "keys and connection point" section.
+* For GCP you need to download the JSON file from the service account you are using and move that file in the same folder of the run.py
+* In the case of AZURE you only need to copy the key obtained in the "keys and connection point" section that is in run.py.
   
 ## Graphs of task 2
 ![graficas](https://user-images.githubusercontent.com/96556497/201457658-1ef9e4ca-954f-47fe-b70c-ce0e4d329f7d.PNG)

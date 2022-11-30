@@ -20,8 +20,8 @@ if __name__ == '__main__':
     lang2_set = 'es_corpus.txt'
     lang_from = 'en'
     lang_to = 'es'
-    cod_key = 'c72e1edd13a1410785bef1c40dd6224e'
-    cod_region = 'southcentralus'
+    cod_key = 'AZURE_KEY'
+    cod_region = 'AZURE_ZONE'
     gcp_keys = 'private_key.json'
     task_3 = translate_blue(lang1_set, lang2_set, lang_from, lang_to, cod_key, cod_region, gcp_keys)
     task_3.main()
