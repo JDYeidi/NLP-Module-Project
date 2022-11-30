@@ -10,6 +10,7 @@ class movies_reviews():
         self.dataset = 'nlp_proyect/tiny_movie_reviews_dataset.txt'
 
     def main(self):
+        final_list = []
         with open(self.dataset, 'r') as f:
             reviews = f.readlines()
 
@@ -18,8 +19,12 @@ class movies_reviews():
             output = self.classifier(inputs, max_length=512, truncation=True)
             if output[0]['label'] == 'LABEL_0':
                 print("Review " + str(i) + ": " + "Negative")
+                final_list.append("Negative")
             elif output[0]['label'] == 'LABEL_1':
                 print("Review " + str(i) + ": " + "Neutral")
+                final_list.append("Neutral")
             elif output[0]['label'] == 'LABEL_2':
                 print("Review " + str(i) + ": " + "Positive")
+                final_list.append("Positive")
+        return final_list
     
