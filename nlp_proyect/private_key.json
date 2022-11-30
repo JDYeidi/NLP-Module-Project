@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pr-ctica-1-gcji",
+  "private_key_id": "98cfb05eed62d77bd985fd44e95add24ef0fca05",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6iviqLa3SGNGl\nq7TMFNVjVHfIy4pxSInaQEl1uglD60lGOtMrW8FmRRcJ8ITstZp9ogPNFTvzWUKO\ns4xZe4E+W5gg9BZOzEehCNmZQ572FkN5q7nnXcamRLlX3HeSOTRANqZ+nIkCxrQ1\nKEdgDzSFEYoB9V7TZITJfxnwpSIm2xIVvbpYosM1Mo0ZdSydP9Lt3sBJm6QeFfQF\nh0oa3Q0XFtYKF/qOuC+5tLJcKpHdttfD1boJ715kQTjP5B5jOGelS3Ez7X+hBrcA\nq80R3mhG+UY2vlLcmOimYAGJCMhhM8OIVX5CsMcwvakYPyypB4QR83nlGDI2gLcf\nciCkTUzfAgMBAAECggEAAKBOzWNx3e6vZXr6FGVNghPagxYL1O2FaPImTPre5Rd5\nG38/Djo0n/9DYIkqKRFC/4D3ukyD8wEttATuR66edHMiQ5oOKR2Ob//zmwwbEIBq\noZHuAdTSweQhKyZWUGtYvY5xaKNl4liAal1EQBJM/tVcPT1xoAwKVhLTJ3emcbLx\nGPrP+xuqBDOL9gmSzzqcjnxT8bcapEGUq9apk30avMfSQmSTwhTIMOtsOPHy3shg\nGGTWyGEJMEB4GCMMmp4Z0/cP5ijyK4WqZoqq3Regcit+a6lkOaa7CBZXTZHxhdIV\nhUbNgv5wyqU1Qe3MTJas5iIm2R6DyVoXjf3ccgujYQKBgQDc+iBabK3ezRceycx4\nzTfCbngCB3CykY/4z9vXzwmvwTmddBB/BbT4rsgNhOFfzsMiegl+2P8OEDgd2GY2\n2nzxnVZ6WCtVk70CXmUs8hJRqaGnl5NOh4wnDmvbJoANjR8zhuBTcyI2GWIRkcdk\niaw18VLz4CZ4W9zg1J3wba9E9QKBgQDYG7gvJDlm4/YBacz0CuMT4B4Y+M1v91Gz\nvW1KjoZNLaZ70+Rl0ttVpPlHUm6lkig2uGtxoNvfHuge6oZZ9Us7xcHsIJfjsGNl\nQ/E1WWiNistL0pYz/dQbZ8+fgapeAxVUPZcouFb2OkRuo35/hvMsmr/2k6YzBv/f\ngQk0+gLGAwKBgEHQYVhtK+/Cx5MM6VBFVska27VHAAK/JdEmH0UMTcdB1mYVzl/2\nlCrI655TKEi/rRCUpkVYXcaTgBMrg23s7u+LO9lebzGiudV9xcZ4JoqZ6iKfG2l1\nJ4HuYqM3uUXP9S4EisVv8g2Iy9ONxoQkGN1MDbfC19JbEdMIoC2ejWgNAoGAX1xD\n9xFd/wgCivcbyGhxcVjJDy3iwVB6Df09l9OycaX+O8/xjfjwbidhFFbMmmUXN6ZD\nSx23SAqEVPgaFuIFs7d87ewn+gHgqlPDwU3Vs/eV47xmKUUNbpZtaK439koYBFc1\nN3O4c+icP9IHRNDQx1L1+CGJCiVBjWeMH4Ne6+8CgYEAs9wlWJ5M9X3nji+wcUzW\nK2kL8DHeDMtUn1L8UT0J4HcT3KWNpa2FaUtirRsJCBykKGzH1i6LndDDReyJB+f8\nnIVtMzQAnfGQNTv8q1oluAzozzmETsD+z+Ddk6OFPjezlKBlwfUY+7NiUchcpcFF\njoFkR3En4xaCmBA5iNz0KTg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mi-cuenta@pr-ctica-1-gcji.iam.gserviceaccount.com",
+  "client_id": "108714186748451112023",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mi-cuenta%40pr-ctica-1-gcji.iam.gserviceaccount.com"
+}
