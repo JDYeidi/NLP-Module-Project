@@ -83,6 +83,3 @@ class model_trainer():
       plt.xlabel('epoch')
       plt.legend(['train', 'val'], loc='upper left')
       plt.show()
-
-
-       

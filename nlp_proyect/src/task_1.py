@@ -27,4 +27,3 @@ class movies_reviews():
                 print("Review " + str(i) + ": " + "Positive")
                 final_list.append("Positive")
         return final_list
-    
